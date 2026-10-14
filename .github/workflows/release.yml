@@ -1,6 +1,5 @@
 # Caller example: copy to the consuming modpack repository at .github/workflows/release.yml.
 name: Modpack Release
-
 on:
   release:
     types: [published]
@@ -17,12 +16,9 @@ jobs:
       use-java: false
       use-go: true
       build-command: |
-        set -Eeuo pipefail
-        # Keep the Packwiz export version aligned with the published GitHub Release tag.
+        # Keep Packwiz export versions aligned with the published GitHub Release tag.
         sed -i "s/^version = .*/version = \"${GITHUB_REF_NAME}\"/" pack.toml
         go install github.com/packwiz/packwiz@latest
-        packwiz modrinth export -o "HM Life+-${GITHUB_REF_NAME#v}.mrpack"
-      artifacts-json: '[{"path":"HM Life+-{version}.mrpack","loader":"fabric"}]'
-      loaders: "fabric"
-      game-versions: "26.2"
+        (packwiz modrinth export)
+      artifacts-json: '[{"path":"HM Basic Play-{version}.mrpack"}]'
     secrets: inherit
