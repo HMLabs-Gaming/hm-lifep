@@ -1,7 +1,7 @@
 # HM Life+
 
-[![Static Badge](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/henrymmey)
-[![Static Badge](https://img.shields.io/badge/Website-henrymeyer.de/gaming-green)](https://henrymeyer.de/gaming)
+[![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/project/mqGoJZwG)
+[![GitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg)](https://github.com/HMLabs-Gaming/hm-lifep)
 
 ---
 
