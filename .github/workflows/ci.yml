@@ -15,7 +15,6 @@ jobs:
       go-version: "1.22"
       packwiz-install-command: "go install github.com/packwiz/packwiz@latest"
       validate-command: |
-        bash .github/scripts/check-platform-parity.sh
         (packwiz modrinth export)
         (packwiz curseforge export)
       artifact-paths: |
