@@ -21,5 +21,5 @@ jobs:
         go install github.com/packwiz/packwiz@latest
         (packwiz modrinth export)
         (packwiz curseforge export)
-      artifacts-json: '[{"path":"HMT Pack-{version}.mrpack"},{"path":"HMT Pack-{version}.zip"}]'
+      artifacts-json: '[{"path":"HM Life+-{version}.mrpack"},{"path":"HM Life+-{version}.zip"}]'
     secrets: inherit
