@@ -16,7 +16,7 @@ jobs:
       go-version: "1.22"
       packwiz-install-command: "go install github.com/packwiz/packwiz@latest"
       validate-command: |
-        (cd platforms/modrinth && packwiz modrinth export)
+        packwiz modrinth export -o release.mrpack
       artifact-paths: |
-        platforms/modrinth/*.mrpack
+        release.mrpack
       artifact-name: modpack-exports
