@@ -20,6 +20,5 @@ jobs:
         sed -i "s/^version = .*/version = \"${GITHUB_REF_NAME}\"/" pack.toml
         go install github.com/packwiz/packwiz@latest
         (packwiz modrinth export)
-        (packwiz curseforge export)
       artifacts-json: '[{"path":"HM Life+-{version}.mrpack"},{"path":"HM Life+-{version}.zip"}]'
     secrets: inherit

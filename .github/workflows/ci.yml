@@ -16,7 +16,6 @@ jobs:
       packwiz-install-command: "go install github.com/packwiz/packwiz@latest"
       validate-command: |
         (packwiz modrinth export)
-        (packwiz curseforge export)
       artifact-paths: |
         *.mrpack
         *.zip
