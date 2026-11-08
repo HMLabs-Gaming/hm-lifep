@@ -1,13 +1,13 @@
 name = "JS Green Redstone Ore"
-filename = "Greenscreen Redstone Ore.zip"
+filename = "js-green-redstone-ore-1.0.1.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/OGW3adGA/versions/NAwxwHBj/Greenscreen%20Redstone%20Ore.zip"
+url = "https://cdn.modrinth.com/data/OGW3adGA/versions/JiHnMsu4/js-green-redstone-ore-1.0.1.zip"
 hash-format = "sha512"
-hash = "a660c6c0395f39576ef04c830d9528744a2adf69b396d305f9d4612a5bfa5abda994c55492bb55a7e7a6db39819c7d21d9b263f65833b71a49ac9803ff8911d2"
+hash = "5b2caa4f5d8a525897d179b9ff943f21c6bd92a40b63884e9fa4e21f675aa2ca3d06f1cbcec5005158be4a56ae9d95c818d83cba1084e32befb1bc90f78689a9"
 
 [update]
 [update.modrinth]
 mod-id = "OGW3adGA"
-version = "NAwxwHBj"
+version = "JiHnMsu4"
