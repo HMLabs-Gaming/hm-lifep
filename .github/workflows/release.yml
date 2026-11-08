@@ -11,7 +11,7 @@ jobs:
   release:
     uses: HMLabs-Gaming/release-workflows/.github/workflows/release-artifacts.yml@main
     with:
-      project-slug: hmt-pack
+      project-slug: hm-lifep
       modrinth-project-id: mqGoJZwG
       use-java: false
       use-go: true
